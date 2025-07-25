@@ -57,11 +57,11 @@
 
             -> Java is Imperative Programming Language
 
-        -> Declarative Programming Language
+        -> Derative Programming Language
 
             -> What To Do 
 
-            -> SQL is Declarative Programming Language
+            -> SQL is Derative Programming Language
 
         -> High Level
 
@@ -138,7 +138,7 @@
 
         -> JRE : You Compile Java Code Using JRE (javac)
 
-        -> JVM : Reads .class file i.e Byte Code and Gives it to OS for execution
+        -> JVM : Reads .ss file i.e Byte Code and Gives it to OS for execution
 
 18th July
 =========
@@ -159,7 +159,7 @@
         -> Data you want to store, you need to specify data type
             -> above approach is called as Static Typed/Strict Typed
 
-        -> Data Type is classification of data
+        -> Data Type is ssification of data
 
             -> Primitive Data types 
 
@@ -332,3 +332,61 @@
                 -> break
                 -> continue
                 -> return
+                24th July
+=========
+
+    -> Conditional Statements
+
+        -> Evaluate a condition(-> boolean), execute different blocks of Code
+        based on whether the condition is true or false
+
+        -> if 
+            -> Execute a block of code if condition is true
+        -> if-else
+            -> Execute one block of code if condition is true,
+                another block of code if condition is false
+            -> Ternary Operator - same as if else, but concise form 
+                variable = condition ? value_if_true:value_if_false;
+        -> else if ladder
+            -> Allows multiple conditions to be checked
+        -> switch 
+            -> Allows multiple conditions to be checked
+            -> We can use fall through behavior where we can assign multiple values
+            -> we also have new switch-case from java 8 onwards, where we can use
+            arrow operator ->
+        
+        NOTE: We can also use nested conditions, condition inside another condition
+
+
+25th July
+=========
+
+    -> Looping Statements / Iteration Statements
+
+        -> Loops will help you a block of code to executed repeatedly, based on a condition
+
+        -> Types Of Loops
+
+            -> for loop - when you already know in advance, how many times you need to 
+                execute the block of code
+            
+            -> while loop - runs block of code, as long as the condition is true
+            
+            -> do-while loop - similar to while, but run the code at least once, 
+                even before checking the condition
+
+            -> Branching Statements 
+
+                -> break - exits the loop, when used with for, while, 
+                    do-while or switch 
+
+                -> continue - skip the current Iteration 
+
+                -> return - returns a value
+
+    -> Scanner Class -> Predefined class designed to take user input
+
+        -> nextInt(): Reads an integer value.
+        -> nextDouble(): Reads a double value.
+        -> nextLine(): Reads an entire line of text.
+        -> next(): Read the next token (word).
