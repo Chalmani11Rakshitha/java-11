@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "first_task",
+            "request": "launch",
+            "mainClass": "first_task",
+            "projectName": "java-11_d712a907"
+        },
+        {
+            "type": "java",
+            "name": "loopdemo",
+            "request": "launch",
+            "mainClass": "loopdemo",
+            "projectName": "java-11_d712a907"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
