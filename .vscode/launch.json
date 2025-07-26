@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lms_task",
+            "request": "launch",
+            "mainClass": "lms_task",
+            "projectName": "java-11_d712a907"
+        },
+        {
+            "type": "java",
             "name": "first_task",
             "request": "launch",
             "mainClass": "first_task",
